@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "filter.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx -n --experimental-vm-modules jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimurDavlet/NewGen.git"
+  },
+  "author": "TimurDavlet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimurDavlet/NewGen/issues"
+  },
+  "homepage": "https://github.com/TimurDavlet/NewGen#readme",
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.0",
+    "jest": "^26.6.3",
+    "@babel/plugin-transform-modules-commonjs": "^7.18.2"
+  }
+}
